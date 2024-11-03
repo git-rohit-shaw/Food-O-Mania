@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.brand{
+    color: rgb(188, 47, 8); 
+    font-style: italic; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img3{
+    height: 70px;
+    width: 70px;
+}
+
+.first{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.collections{
+    font-size: 30px;
+    color: rgb(27, 26, 26);
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.coll{
+   height: 420px;
+   width: 40vh;
+   margin-right: 50px;
+}
+
+.col{
+    margin-left: 180px;
+}
+
+.dining{
+    margin-left: 200px;
+}
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+
+}
+
+.dine,.Delivery,.Nightlife{
+    position: relative;
+    bottom: 22px;
+    left: 5px;font-size: 20px;
+    color: rgb(98, 93, 93);
+}
+
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: rgb(101, 97, 97);
+}
+
+.head{
+    display: inline-block;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+
+}
+
+.card{
+   display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+.image{
+    position: relative;
+}
+
+.Box{
+    display: inline-block;
+}
+
+.img{
+    height: 250px;
+    width: 490px;
+    border-radius: 20px;
+}
+
+.Restaurant_Name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Restaurant , .food, .location{
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   /* color: rgb(108, 104, 104); */
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.price, .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .place{
+    font-size: 19px;
+    color: rgb(88, 88, 88);
+}
+
+.distance{
+    font-size: 18px;
+    font-weight: bold;
+}
